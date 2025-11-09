@@ -26,13 +26,13 @@ void main (){
 print("10 Map methods example:");
 // 10 methods of maps
 
-Map user={'name':'hammad','fname':'nasir','age':17};
+Map user={'name':'mehras','fname':'yousuf','age':18};
 print (user.length);
 print (user.isEmpty);
 print (user.isNotEmpty);
 user.clear;
 print (user.clear); 
-user.putIfAbsent('contact',()=>03482338723);
+user.putIfAbsent('contact',()=>03202595320);
 print(user.putIfAbsent);
 user.addAll({'adress':'karachi','email':'abc'});
 print(user.addAll);
@@ -40,7 +40,8 @@ user.remove('adress');
 print(user.remove);
 user.containsKey('name');
 print (user.containsKey);
-user.containsValue('hammad');
+user.containsValue('mehras');
 print (user.containsValue);
+
 
 }
